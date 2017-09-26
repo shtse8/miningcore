@@ -196,7 +196,7 @@ namespace MiningCore.Blockchain.Bitcoin
                 string.Empty,           // default account 
                 amounts,                // addresses and associated amounts
                 1,                      // only spend funds covered by this many confirmations
-                "MiningCore Payout",    // comment
+                "CMPool Payout",    // comment
                 subtractFeesFrom        // distribute transaction fee equally over all recipients
             };
 
